@@ -2,15 +2,9 @@ package ch.heigvd.res.lab00;
 
 /**
  * labo00
- * Implementation of class Bow and an interface IInstrument
+ * Implementation of class Bow
  * @author Jérémie Zanone
  */
-
-interface IInstrument{
-	public int getSoundVolume();
-	public String play();
-	public String getColor();
-}
 
 public class Bow implements IInstrument {
 
