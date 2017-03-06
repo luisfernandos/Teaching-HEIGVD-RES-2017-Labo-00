@@ -11,6 +11,7 @@ public class ThumbPiano implements IInstrument {
 
 	public ThumbPiano() {
 		sound = "cling";
+		
 	}
 
 	public String play() {
