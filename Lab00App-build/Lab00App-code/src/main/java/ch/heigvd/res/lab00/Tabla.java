@@ -7,5 +7,6 @@ package ch.heigvd.res.lab00;
 
 public class Tabla implements IInstrument
 {
+	//Commentaire pour refaire un commit pour push et fix en même temps
    public String play(){return "BoumBoum";}
 }
