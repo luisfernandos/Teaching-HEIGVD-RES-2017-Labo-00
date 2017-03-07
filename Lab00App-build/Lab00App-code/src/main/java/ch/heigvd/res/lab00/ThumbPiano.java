@@ -1,10 +1,5 @@
 package ch.heigvd.res.lab00;
 
-interface IInstrument {
-
-	public String play();
-}
-
 public class ThumbPiano implements IInstrument {
 
 	private String sound;
