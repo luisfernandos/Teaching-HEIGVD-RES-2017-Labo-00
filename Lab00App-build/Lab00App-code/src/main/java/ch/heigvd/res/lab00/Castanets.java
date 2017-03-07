@@ -1,11 +1,5 @@
 package ch.heigvd.res.lab00;
 
-interface IInstrument {
-	public int getSoundVolume();
-	public String play();
-	public String getColor();
-}
-
 public class castanets implements IInstrument {
 
 
