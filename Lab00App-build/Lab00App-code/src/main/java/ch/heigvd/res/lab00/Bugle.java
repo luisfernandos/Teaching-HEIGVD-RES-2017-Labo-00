@@ -8,15 +8,15 @@ public class  Bugle implements IInstruments{
 
     Bugle(){}
 
-    String play(){
+public String play(){
         return "pouetpouet";
     }
 
-    int getSoundVolume(){
+    public int getSoundVolume(){
         return 20;
     }
 
-    String getColor(){
+    public String getColor(){
         return "Shine like a diamond";
     }
 
