@@ -1,9 +1,12 @@
 package ch.heigvd.res.lab00;
 
+/**
+ * @author Olivier Liechti
+ */
+public interface IInstrument {
 
-
-interface IInstrument {
+    String play();
     int getSoundVolume();
-	String play();
-	String getColor();
+    String getColor();
+
 }
