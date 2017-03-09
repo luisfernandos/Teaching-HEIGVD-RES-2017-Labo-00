@@ -1,7 +1,7 @@
-
 package ch.heigvd.res.lab00;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 /**
  *
@@ -9,8 +9,9 @@ import org.junit.Assert;
  */
 
 public class CelloTest {
-     public void aCelloShouldMakeBoumBoum() {
-    IInstrument cello = new CelloTest();
+  @Test
+  public void aCelloShouldMakeBoumBoum() {
+    IInstrument cello = new Cello();
     String sound = cello.play();
     Assert.assertEquals("boum boum", sound);
   }
