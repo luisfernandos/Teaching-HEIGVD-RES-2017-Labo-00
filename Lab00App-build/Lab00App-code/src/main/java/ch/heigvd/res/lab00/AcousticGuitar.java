@@ -2,7 +2,7 @@ package ch.heigvd.res.lab00;
 
 /**
  *
- * @author Arthur Passuello
+ * @author Arthur Passuello 
  */
 public class AcousticGuitar implements IInstrument
 {
