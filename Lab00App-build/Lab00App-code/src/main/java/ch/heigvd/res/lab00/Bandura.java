@@ -11,17 +11,6 @@ package ch.heigvd.res.lab00;
  */
  
  
- /*
- 
-   @Test
-  public void aBanduraShouldMakeBandura() {
-    IInstrument bandura = new Bandura();
-    String sound = bandura.play();
-    Assert.assertEquals("bandura", sound);
-  }
- 
- */
-
 public class Bandura implements IInstrument {
 
    private String color = "brown";
