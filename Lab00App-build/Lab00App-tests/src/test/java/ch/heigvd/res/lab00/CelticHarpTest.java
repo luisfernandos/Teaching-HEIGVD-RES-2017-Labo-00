@@ -9,7 +9,8 @@ import org.junit.Test;
  */
 
 public class CelticHarpTest
-{ 
+{
+    @Test
     public void aCelticHarpShouldMakeDruum()
     {
         IInstrument celticHarp = new CelticHarp();
