@@ -2,7 +2,7 @@ package ch.heigvd.res.lab00;
 
 /**
  *
- * @author SILVERCORP
+ * @author doriane kaffo
  */
 public class BassDrum implements IInstrument {   
     
