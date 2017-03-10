@@ -1,9 +1,6 @@
 
 package ch.heigvd.res.lab00;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 /**
  *
  * @author annie
