@@ -17,7 +17,7 @@ public class TimpaniTest {
    @Test
   public void aTimpaniShouldMakeDoom() {
     IInstrument timpani = new Timpani();
-    String sound = Timpani.play();
+    String sound = timpani.play();
     Assert.assertEquals("doom", sound);
   }
 }
