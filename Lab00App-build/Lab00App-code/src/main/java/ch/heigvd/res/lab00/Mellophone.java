@@ -8,13 +8,16 @@ package ch.heigvd.res.lab00;
 public class Mellophone implements IInstrument{
    	public Mellophone() {}
 
+       @Override
 	public String play() {
            return "Pouet";
 	}
-         int getSoundVolume(){
+       @Override
+        public int getSoundVolume(){
            return 0; 
          }
-          String getColor(){
+       @Override
+         public String getColor(){
              return "Golgen";
           }
    
