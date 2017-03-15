@@ -2,22 +2,27 @@ package ch.heigvd.res.lab00;
 
 /**
  * @author zeller quentin qrzeller
+ * @author  Rafidimalala
  */
 
-public class  Bugle implements IInstruments{
+public class  Bugle implements IInstrument{
+    private String sound = "pouetpouet";
+    private int volume =  20;
+    private String color = "Shine like a diamond";
+    
+    @Override
+    public String play() {
+        return sound;
+    }   
 
-    Bugle(){}
-
-public String play(){
-        return "pouetpouet";
-    }
-
-    public int getSoundVolume(){
-        return 20;
-    }
-
+    @Override
     public String getColor(){
-        return "Shine like a diamond";
+        return color;
+    }
+    
+    @Override
+    public int getSoundVolume(){
+        return volume;
     }
 
 }
